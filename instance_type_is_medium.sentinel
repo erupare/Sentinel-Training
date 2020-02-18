@@ -17,6 +17,7 @@
      all aws_instances as _, instances {
          all instances as index, r {
              all allowed_sizes as t {
+                 print("Found instance types ", r.applied.instance_type)
                  r.applied.instance_type contains t
              }
          }
