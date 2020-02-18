@@ -3,6 +3,6 @@ policy "instance_type_is_medium" {
     enforcement_level = "advisory"
 }
 
-policy "tags_enforced" {
-    enforcement_level = "hard-mandatory"
-}
+//policy "tags_enforced" {
+//    enforcement_level = "hard-mandatory"
+//}
